@@ -14,10 +14,13 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.main}>
+      <main className="">
        
         <div>
-          <h1 className={styles.title}> welcome to next js </h1>
+          <h1 className=" text-5xl font-bold text-center text-green-300"> welcome to next js </h1>
+          <h2 className="text-3xl text-blue-400 text-center mt-4 font-thin">
+                    Hello world sumon  !
+                    </h2>
         </div>
       </main>
     </>
