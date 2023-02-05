@@ -5,7 +5,7 @@ import React from "react";
 const CommentDetails =() => {
 
     const router = useRouter();
-    
+
     const { dynamicId, dynamicComment } = router.query;
 
     
